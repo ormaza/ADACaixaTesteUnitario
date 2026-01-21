@@ -1,0 +1,6 @@
+@ZebraBet.API_HostAddress = http://localhost:5078
+
+GET {{ZebraBet.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
