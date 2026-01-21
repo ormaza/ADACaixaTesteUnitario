@@ -31,3 +31,37 @@ C:\Desenvolvimento\Projeto Testes Automatizados\ZebraBet.API\obj\Debug\net10.0\r
 C:\Desenvolvimento\Projeto Testes Automatizados\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.pdb
 C:\Desenvolvimento\Projeto Testes Automatizados\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.genruntimeconfig.cache
 C:\Desenvolvimento\Projeto Testes Automatizados\ZebraBet.API\obj\Debug\net10.0\ref\ZebraBet.API.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.staticwebassets.endpoints.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\appsettings.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.exe
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.deps.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.runtimeconfig.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\ZebraBet.API.pdb
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.csproj.AssemblyReference.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.AssemblyInfoInputs.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.AssemblyInfo.cs
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.sourcelink.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\scopedcss\bundle\ZebraBet.API.styles.css
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.6CFD8A73.Up2Date
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\refint\ZebraBet.API.dll
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.pdb
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ZebraBet.API.genruntimeconfig.cache
+C:\Desenvolvimento\ADACaixaTesteUnitario\ZebraBet.API\obj\Debug\net10.0\ref\ZebraBet.API.dll
