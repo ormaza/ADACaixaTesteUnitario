@@ -482,7 +482,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-
-# Build directories
-ZebraBet.API/bin/
-ZebraBet.API/obj/
