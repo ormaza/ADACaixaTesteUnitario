@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ZebraBet.API.UnitTests/ZebraBet.API.UnitTests.csproj" />
+  <Project Path="ZebraBet.API/ZebraBet.API.csproj" />
+</Solution>
