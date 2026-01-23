@@ -26,12 +26,12 @@ public class Aposta
     {
         if(Partida == null)
         {
-            throw new ArgumentException("Partida nula");
+            throw new ArgumentException("Partida não pode ser nula");
         }
 
         if(Usuario == null)
         {
-            throw new ArgumentException("Usuario nulo");
+            throw new ArgumentException("Usuario não pode ser nulo");
         }
 
         if(PalpiteGolsMandante < 0)
