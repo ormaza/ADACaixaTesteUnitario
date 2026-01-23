@@ -32,5 +32,25 @@ namespace ZebraBet.API.Tests.Models
             // Assert
             Assert.Equal("Sigla deve possuir 2 caracteres", exception.Message);
         }
+
+        [Fact]
+        public void DadoEstadoComNomeVazio_QuandoCriado_EntaoArgumentException()
+        {
+            // Arrange & Act
+            var exception = Assert.Throws<ArgumentException>(() => new API.Models.Estado("", "SP"));
+
+            // Assert
+            Assert.Equal("Nome não pode ser vazio", exception.Message);
+        }
+
+        [Fact]
+        public void DadoEstadoComSiglaVazia_QuandoCriado_EntaoArgumentException()
+        {
+            // Arrange & Act
+            var exception = Assert.Throws<ArgumentException>(() => new API.Models.Estado("São Paulo", ""));
+
+            // Assert
+            Assert.Equal("Sigla não pode ser vazia", exception.Message);
+        } 
     }
 }
