@@ -18,6 +18,16 @@ public class Estado
 
     private void Validar()
     {
+        if (string.IsNullOrEmpty(Nome))
+        {
+            throw new ArgumentException("Nome não pode ser vazio");
+        }
+
+        if (string.IsNullOrEmpty(Sigla))
+        {
+            throw new ArgumentException("Sigla não pode ser vazia");
+        }
+
         if (Nome.Length > 20)
         {
             throw new ArgumentException("Nome acima de 20 caracteres");
@@ -26,16 +36,6 @@ public class Estado
         if (Sigla.Length != 2)
         {
             throw new ArgumentException("Sigla deve possuir 2 caracteres");
-        }
-
-        if (string.IsNullOrEmpty(Nome))
-        {
-            throw new ArgumentException("Nome vazio");
-        }
-
-        if (string.IsNullOrEmpty(Sigla))
-        {
-            throw new ArgumentException("Sigla vazio");
         }
     }
 }
