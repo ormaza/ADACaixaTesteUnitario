@@ -28,6 +28,21 @@ public class Usuario
 
     private void Validar()
     {
+        if (string.IsNullOrEmpty(Nome))
+        {
+            throw new ArgumentException("Nome vazio");
+        }
+
+        if (string.IsNullOrEmpty(Sobrenome))
+        {
+            throw new ArgumentException("Sobrenome vazio");
+        }
+
+        if (string.IsNullOrEmpty(Email))
+        {
+            throw new ArgumentException("Email vazio");
+        }
+
         if (Nome.Length > 15)
         {
             throw new ArgumentException("Nome acima de 15 caracteres");
@@ -56,21 +71,6 @@ public class Usuario
         if (Email.Count(c => c == '.') != 1)
         {
             throw new ArgumentException("Email deve conter exatamente um ponto");
-        }
-
-        if (string.IsNullOrEmpty(Nome))
-        {
-            throw new ArgumentException("Nome vazio");
-        }
-
-        if (string.IsNullOrEmpty(Sobrenome))
-        {
-            throw new ArgumentException("Sobrenome vazio");
-        }
-
-        if (string.IsNullOrEmpty(Email))
-        {
-            throw new ArgumentException("Email vazio");
         }
     }
 
