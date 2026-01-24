@@ -37,7 +37,7 @@ namespace ZebraBet.API.Tests.Services
             // Assert
             Assert.NotNull(estados);
             Assert.Equal(2, estados.Count);
-            Assert.Equal("São Paulo", estados[0].Sigla);
+            Assert.Equal("SP", estados[0].Sigla);
         }
 
         [Fact]
