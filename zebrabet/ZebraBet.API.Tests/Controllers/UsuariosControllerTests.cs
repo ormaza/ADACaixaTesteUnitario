@@ -23,7 +23,7 @@ namespace ZebraBet.API.Tests.Controllers
         public async Task ObterPorId_DeveRetornarOkSeExiste()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
             _service.ObterPorIdAsync(1).Returns(usuario);
 
             // Act
@@ -53,7 +53,7 @@ namespace ZebraBet.API.Tests.Controllers
         public async Task Criar_DeveRetornarCreatedAtAction()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
 
             // Act
             var resultado = await _controller.Criar(usuario);
@@ -68,7 +68,7 @@ namespace ZebraBet.API.Tests.Controllers
         public async Task Atualizar_DeveRetornarNoContent_SeSucesso()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
             _service.AtualizarAsync(Arg.Any<Usuario>()).Returns(true);
 
             // Act
@@ -82,7 +82,7 @@ namespace ZebraBet.API.Tests.Controllers
         public async Task Atualizar_DeveRetornarBadRequestSeIdDiferente()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
 
             // Act
             var resultado = await _controller.Atualizar(2, usuario);
@@ -96,7 +96,7 @@ namespace ZebraBet.API.Tests.Controllers
         public async Task Atualizar_DeveRetornarNotFound_SeNaoExiste()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", DateTime.Today.AddYears(-25), "madruguinha@email.com");
             _service.AtualizarAsync(Arg.Any<Usuario>()).Returns(false);
 
             // Act
