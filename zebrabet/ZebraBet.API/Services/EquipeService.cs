@@ -14,7 +14,7 @@ namespace ZebraBet.API.Services
         }
 
         public Task<List<Equipe>> ObterTodosAsync()
-            => _repo.ObterTodosAsync();
+            => _repo.ObterTodosOrdenadoAsync();
 
         public Task<Equipe?> ObterPorIdAsync(int id)
             => _repo.ObterPorIdAsync(id);

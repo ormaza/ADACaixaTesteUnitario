@@ -14,5 +14,9 @@ namespace ZebraBet.API.Repositories
         {
             return await _dbSet.Where(e => e.SiglaEstado == siglaEstado).ToListAsync();
         }
+        public async Task<List<Equipe>> ObterTodosOrdenadoAsync()
+        {
+            return await _dbSet.OrderBy(e => e.SiglaEstado).ThenBy(x => x.Nome).ToListAsync();
+        }
     }
 }
