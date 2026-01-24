@@ -53,7 +53,7 @@ namespace ZebraBet.API.Tests.Controllers
             var okResult = Assert.IsType<OkObjectResult>(resultado.Result);
             var equipeRetornada = Assert.IsType<Equipe>(okResult.Value);
 
-            Assert.Equal("Ibis", equipeRetornada.Nome);
+            Assert.Equal("São Paulo", equipeRetornada.Nome);
         }
 
         [Fact]
