@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+LMs5Agtzio=",
+  "dgSpecHash": "GLa9sURh6+Y=",
   "success": true,
-  "projectFilePath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
+  "projectFilePath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ormazabal\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Ormazabal\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",

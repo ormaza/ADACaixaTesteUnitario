@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj": {}
+    "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj": {
+    "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
         "projectName": "ZebraBet.API.Tests",
-        "projectPath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
+        "projectPath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\ZebraBet.API.Tests.csproj",
         "packagesPath": "C:\\Users\\Ormazabal\\.nuget\\packages\\",
-        "outputPath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ormazabal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj": {
-                "projectPath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj"
+              "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj": {
+    "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj",
         "projectName": "ZebraBet.API",
-        "projectPath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj",
+        "projectPath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\ZebraBet.API.csproj",
         "packagesPath": "C:\\Users\\Ormazabal\\.nuget\\packages\\",
-        "outputPath": "c:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\ADACaixaTesteUnitario\\zebrabet\\ZebraBet.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ormazabal\\AppData\\Roaming\\NuGet\\NuGet.Config"
