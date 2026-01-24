@@ -1,0 +1,9 @@
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.csproj.AssemblyReference.cache
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.AssemblyInfoInputs.cache
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.AssemblyInfo.cs
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.csproj.CoreCompileInputs.cache
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Desenvolvimento\ADACaixaTesteUnitario\zebrabet\ZebraBet.API\obj\Debug\net8.0\ZebraBet.API.sourcelink.json
