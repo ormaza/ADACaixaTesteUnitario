@@ -64,7 +64,7 @@ namespace ZebraBet.API.Tests.Controllers
             var resultado = await _controller.ObterPorId(1);
 
             // Assert
-            Assert.IsType<NotFoundObjectResult>(resultado.Result);
+            Assert.IsType<NotFoundResult>(resultado.Result);
         }
 
         [Fact]
