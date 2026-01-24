@@ -5,16 +5,19 @@ namespace ZebraBet.API.Models;
 public class Equipe
 {
     public Equipe(
+        int id,
         string nome,
-        string sigla)
+        string siglaEstado)
     {
+        Id = id;
         Nome = nome;
-        Sigla = sigla;
+        SiglaEstado = siglaEstado;
 
         Validar();
     }
+    public int Id { get; private set; }
     public string Nome { get; private set; }
-    public string Sigla { get; private set; }
+    public string SiglaEstado { get; private set; }
 
     private void Validar()
     {
@@ -28,7 +31,7 @@ public class Equipe
             throw new ArgumentException("Nome deve possuir no máximo 20 caracteres");
         }
 
-        if (string.IsNullOrEmpty(Sigla))
+        if (string.IsNullOrEmpty(SiglaEstado))
         {
             throw new ArgumentException("Sigla vazia");
         }

@@ -3,16 +3,18 @@
 public class Estado
 {
 
-    public Estado(
+    public Estado(int id,
         string nome,
         string sigla)
     {
+        Id = id;
         Nome = nome;
         Sigla = sigla;
 
         Validar();
     }
 
+    public int Id { get; private set; }
     public string Nome { get; private set; }
     public string Sigla { get; private set; }
 

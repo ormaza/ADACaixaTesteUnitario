@@ -4,13 +4,14 @@ namespace ZebraBet.API.Models;
 
 public class Usuario
 {
-    public Usuario(
+    public Usuario(int id,
         Titulo titulo,
         string nome,
         string sobrenome,
         DateTime dataNascimento,
         string email)    
     {
+        Id = id;
         Titulo = titulo;
         Nome = nome;       
         Sobrenome = sobrenome;
@@ -19,7 +20,7 @@ public class Usuario
 
         Validar();
     }
-
+    public int Id { get; private set; }
     public Titulo Titulo { get; private set; }
     public string Nome { get; private set; }
     public string Sobrenome { get; private set; }

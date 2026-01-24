@@ -2,34 +2,37 @@
 
 public class Partida
 {
-    public Partida(Equipe equipeVisitante, 
-                    Equipe equipeMandante, 
+    public Partida(int id,
+                    int equipeMandanteId,
+                    int equipeVisitanteId,
                     int golsVisitante, 
                     int golsMandante, 
                     DateTime dataPartida)
     {
-        EquipeVisitante = equipeVisitante;
-        EquipeMandante = equipeMandante;
+        Id = id;
+        EquipeVisitanteId = equipeVisitanteId;
+        EquipeMandanteId = equipeMandanteId;
         GolsVisitante = golsVisitante;
         GolsMandante = golsMandante;
         DataPartida = dataPartida;
 
         Validar();
     }
-    public Equipe EquipeVisitante { get; private set; }
-    public Equipe EquipeMandante { get; private set; }
+    public int Id { get; private set; }
+    public int EquipeVisitanteId { get; private set; }
+    public int EquipeMandanteId { get; private set; }
     public int GolsVisitante { get; private set; }
     public int GolsMandante { get; private set; }
     public DateTime DataPartida { get; private set; }
 
     private void Validar()
     {
-        if (EquipeVisitante == null)
+        if (EquipeVisitanteId == 0)
         {
             throw new ArgumentException("Equipe visitante vazia");
         }
 
-        if (EquipeMandante == null)
+        if (EquipeMandanteId == 0)
         {
             throw new ArgumentException("Equipe mandante vazia");
         }
