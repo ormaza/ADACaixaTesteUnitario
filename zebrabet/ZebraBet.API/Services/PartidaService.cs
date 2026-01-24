@@ -31,6 +31,9 @@ namespace ZebraBet.API.Services
 
             if (visitante == null) throw new ArgumentException($"Equipe visitante ID {partida.EquipeVisitanteId} não existe.");
 
+            if(mandante == visitante)
+                throw new ArgumentException("Equipe mandante e visitante não podem ser a mesma.");
+
             await _repo.AdicionarAsync(partida);
         }
 

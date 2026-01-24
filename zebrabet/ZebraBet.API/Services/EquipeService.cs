@@ -25,11 +25,13 @@ namespace ZebraBet.API.Services
         {
             List<Estado> estados = _estadoRepo.ObterTodosAsync().Result;
             Estado? estado = estados.Find(e => e.Sigla == equipe.SiglaEstado);
-            if (estado == null) throw new ArgumentException("Estado não encontrado para o Id informado");
+            if (estado == null) 
+                throw new ArgumentException("Estado não encontrado para o Id informado");
             
             List<Equipe> equipes = _repo.ObterTodosAsync().Result;
             Equipe? equipeExistente = equipes.Find(e => e.Nome == equipe.Nome && e.SiglaEstado == equipe.SiglaEstado);
-            if (equipeExistente != null) throw new ArgumentException("Equipe já cadastrada para o estado informado");
+            if (equipeExistente != null) 
+                throw new ArgumentException("Equipe já cadastrada para o estado informado");
 
             return _repo.AdicionarAsync(equipe);
         }
