@@ -46,7 +46,7 @@ namespace ZebraBet.API.Tests.Controllers
             _service.ObterPorIdAsync(1).Returns(aposta);
 
             // Act
-            var resultado = await _controller.ObterPorId(2);
+            var resultado = await _controller.ObterPorId(1);
 
             // Assert
             var ok = Assert.IsType<OkObjectResult>(resultado.Result);
@@ -126,7 +126,7 @@ namespace ZebraBet.API.Tests.Controllers
 
             // Assert
             var bad = Assert.IsType<BadRequestObjectResult>(resultado);
-            Assert.Equal("Erro ao atualizar apostas", bad.Value);
+            Assert.Equal("Erro ao atualizar aposta", bad.Value);
         }
 
         [Fact]
