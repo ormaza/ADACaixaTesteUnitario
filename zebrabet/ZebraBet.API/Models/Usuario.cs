@@ -5,14 +5,14 @@ namespace ZebraBet.API.Models;
 public class Usuario
 {
     public Usuario(int id,
-        Titulo titulo,
+        String titulo,
         string nome,
         string sobrenome,
         DateTime dataNascimento,
         string email)    
     {
         Id = id;
-        Titulo = titulo;
+        Titulo = (Titulo)Enum.Parse(typeof(Titulo), titulo);
         Nome = nome;       
         Sobrenome = sobrenome;
         DataNascimento = dataNascimento;
