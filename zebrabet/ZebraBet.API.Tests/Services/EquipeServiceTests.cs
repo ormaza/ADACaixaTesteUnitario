@@ -9,12 +9,14 @@ namespace ZebraBet.API.Tests.Services
     public class EquipeServiceTests
     {
         private readonly IEquipeRepository _equipeRepository;
+        private readonly IEstadoRepository _estadoRepository;
         private readonly EquipeService _service;
 
         public EquipeServiceTests()
         {
             _equipeRepository = Substitute.For<IEquipeRepository>();
-            _service = new EquipeService(_equipeRepository);
+            _estadoRepository = Substitute.For<IEstadoRepository>();
+            _service = new EquipeService(_equipeRepository, _estadoRepository);
         }
 
         [Fact]

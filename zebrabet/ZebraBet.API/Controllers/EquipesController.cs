@@ -38,8 +38,15 @@ namespace ZebraBet.API.Controllers
         [HttpPost]
         public async Task<ActionResult> Criar(Equipe equipe)
         {
-            await _service.AdicionarAsync(equipe);
-
+            try
+            {
+                await _service.AdicionarAsync(equipe);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
             return CreatedAtAction(nameof(ObterPorId), new { id = equipe.Id }, equipe);
         }
 

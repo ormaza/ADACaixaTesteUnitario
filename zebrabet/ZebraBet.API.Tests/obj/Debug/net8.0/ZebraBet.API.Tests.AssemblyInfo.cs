@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZebraBet.API.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed68dcd0178b792057b399feb65bde14e3f4c115")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22395c48247f3774b2d7b1908a4a51cfb15134f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZebraBet.API.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZebraBet.API.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
