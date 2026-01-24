@@ -69,7 +69,7 @@ namespace ZebraBet.API.Tests.Services
         public async Task AdicionarAsync_DeveCriarAposta()
         {
             // Arrange
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", new DateTime(1990, 1, 1), "madruga@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", new DateTime(1990, 1, 1), "madruga@email.com");
             var partida = new Partida(1, 1, 2, 0, 0, DateTime.UtcNow.AddDays(2));
 
             _usuarioRepo.ObterPorIdAsync(1).Returns(usuario);
@@ -94,7 +94,7 @@ namespace ZebraBet.API.Tests.Services
         {
             // Arrange
             var apostaExistente = new Aposta(1, 1, 1, 1, 1, DateTime.UtcNow.AddDays(1));
-            var usuario = new Usuario(1, "Sr.", "Ramon", "Valdez", new DateTime(1950, 1, 5), "madruga@email.com");
+            var usuario = new Usuario(1, "Sr", "Ramon", "Valdez", new DateTime(1950, 1, 5), "madruga@email.com");
             var partida = new Partida(1, 1, 2, 0, 0, DateTime.UtcNow.AddDays(2));
 
             _apostaRepo.ObterPorIdAsync(1).Returns(apostaExistente);
