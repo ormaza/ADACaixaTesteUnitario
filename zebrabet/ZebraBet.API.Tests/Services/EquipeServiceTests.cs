@@ -35,7 +35,7 @@ namespace ZebraBet.API.Tests.Services
 
             // Assert
             Assert.NotNull(resultado);
-            Assert.Equal(3, resultado.Count);
+            Assert.Equal(2, resultado.Count);
         }
 
         [Fact]

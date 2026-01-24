@@ -15,8 +15,11 @@ namespace ZebraBet.API.Services
             _estadoRepo = estadoRepo;
         }
 
-        public Task<List<Equipe>> ObterTodosAsync()
-            => _repo.ObterTodosOrdenadoAsync();
+        public async Task<List<Equipe>> ObterTodosAsync()
+        {
+            var equipes = await _repo.ObterTodosAsync();
+            return equipes.OrderBy(e => e.SiglaEstado).ThenBy(x => x.Nome).ToList();
+        }
 
         public Task<Equipe?> ObterPorIdAsync(int id)
             => _repo.ObterPorIdAsync(id);
