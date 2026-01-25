@@ -26,13 +26,13 @@ namespace ZebraBet.API.Services
 
         public Task AdicionarAsync(Equipe equipe)
         {
-            List<Estado> estados = _estadoRepo.ObterTodosAsync().Result;
-            Estado? estado = estados.Find(e => e.Sigla == equipe.SiglaEstado);
+            var estados = _estadoRepo.ObterTodosAsync().Result;
+            Estado? estado = estados?.FirstOrDefault(e => e.Sigla == equipe.SiglaEstado);
             if (estado == null) 
                 throw new ArgumentException("Estado não encontrado para o Id informado");
             
-            List<Equipe> equipes = _repo.ObterTodosAsync().Result;
-            Equipe? equipeExistente = equipes.Find(e => e.Nome == equipe.Nome && e.SiglaEstado == equipe.SiglaEstado);
+            var equipes = _repo.ObterTodosAsync().Result;
+            Equipe? equipeExistente = equipes?.FirstOrDefault(e => e.Nome == equipe.Nome && e.SiglaEstado == equipe.SiglaEstado);
             if (equipeExistente != null) 
                 throw new ArgumentException("Equipe já cadastrada para o estado informado");
 

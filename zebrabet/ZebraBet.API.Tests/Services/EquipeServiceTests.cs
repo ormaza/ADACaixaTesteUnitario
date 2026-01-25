@@ -11,12 +11,14 @@ namespace ZebraBet.API.Tests.Services
         private readonly IEquipeRepository _equipeRepository;
         private readonly IEstadoRepository _estadoRepository;
         private readonly EquipeService _service;
+        private readonly EstadoService _estadoService;
 
         public EquipeServiceTests()
         {
             _equipeRepository = Substitute.For<IEquipeRepository>();
             _estadoRepository = Substitute.For<IEstadoRepository>();
             _service = new EquipeService(_equipeRepository, _estadoRepository);
+            _estadoService = new EstadoService(_estadoRepository);
         }
 
         [Fact]
@@ -57,6 +59,8 @@ namespace ZebraBet.API.Tests.Services
         public async Task Adicionar_DeveChamarRepositorio()
         {
             // Arrange
+            var estado = new Estado(1, "Rio de Janeiro", "RJ");
+            _estadoRepository.ObterTodosAsync().Returns(new List<Estado> { estado });
             var equipe = new Equipe(1, "Flamengo", "RJ");
 
             // Act
